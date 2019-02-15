@@ -1,0 +1,152 @@
+/*
+----------------------------------
+Global Styles
+----------------------------------
+*/
+.text-center {
+  text-align: center;
+}
+/* Responsive*/
+@media (min-width: 900px) {
+  .top-p {
+    width: 70% !important;
+  }
+  form {
+    width: 60% !important;
+  }
+  .in-form {
+    width: 80%;
+    padding: 5% 10%;
+  }
+  .three-col {
+    display: flex;
+  }
+  .boxes {
+    justify-content: space-between;
+    display: flex;
+  }
+  .banner {
+  width: 50% !important;
+  }
+}
+/* Flex*/
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.order-1 {
+  order: 1;
+}
+.order-2 {
+  order: 2;
+}
+.order-3 {
+  order: 3;
+}
+/* Backgrouns*/
+.light-blue-bg {
+  background: #b5ead7;
+}
+.light-orange-bg {
+  background: #ffdac1;
+}
+.light-green-bg {
+  background: #e2f0cb;
+}
+.light-brown-bg {
+  background: #e3d7d2;
+}
+/* Margins*/
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+/* Paddings*/
+.p-10 {
+  padding: 10px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-30 {
+  padding: 30px;
+}
+.p-40 {
+  padding: 40px;
+}
+/*
+----------------------------------
+End of Global Styles
+----------------------------------
+*/
+
+body {
+  background: #eee;
+  font-family: 'Montserrat', Helvetica, Calibri, Verdana, Arial, sans-serif;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+.top-p {
+  width: 90%;
+margin: 0 auto;
+}
+form {
+  width: 100%;
+  /*background: #fff;
+  padding: 5% 10%;*/
+  margin: 0 auto;
+}
+.in-form {
+  width: 90%;
+  background: #e8c1c1;
+  padding: 5%;
+  margin: 0 auto;
+  box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+}
+.form-row {
+padding: 10px 0;
+}
+
+.form-row label {
+  padding-right: 10px;
+  padding-top: 6px;
+}
+
+.form-row input {
+  border-radius: 6px;
+  border: 1px solid #ddd;}
+
+.three-col {
+  background: #fff;
+}
+.box {
+  box-sizing: border-box;
+  flex-basis: 30%;
+}
+.banner {
+width: 90%;
+height: 400px;
+margin: 30px auto;
+display: flex;
+}
+.center-middle {
+margin: auto;
+}

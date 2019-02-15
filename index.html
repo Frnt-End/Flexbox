@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport
+content="width=device-width,initial-scale=1">
+<title>CSS Layout with Flexbox</title>
+<link href=css/style.css rel=stylesheet>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mt-40">Aligning Items in a Flex Container</h1>
+     <p class="top-p text-center">
+       Check out the <strong>responsive</strong> view as well.
+       To make things even more sweeter, this page is using a clean css structure: Object Oriented CSS (OOCSS)..mmm..Yammi!
+       </p>
+  <form class="mt-30" action="">
+
+   <div class="in-form">
+     <h3 class="text-center">Hi, I'm a Form!</h3>
+     <p class="text-center">Look how my inputs align nicely <strong>without</strong> using the width property!
+       </p>
+    <div class="form-row flex">
+      <label for="name">Name:</label>
+      <input class="flex-1 p-10" type="text" id="name">
+    </div>
+    <div class="form-row flex">
+      <label for="email">Email:</label>
+      <input class="flex-1 p-10" type="text" id="email">
+    </div>
+   </div>
+  </form>
+
+  <div class="three-col mt-40 p-20">
+    <div class="middle-col flex-3 order-2 p-10">
+      <h2>Middle Columm</h2>
+      <p>
+        Blindtexte nennt man Texte, die bei der Produktion von Publikationen oder Webseiten als Platzhalter für spätere Inhalte stehen, wenn der eigentliche Text noch nicht vorhanden ist. Sie werden auch als Dummy-, Füll- oder Platzhaltertexte bezeichnet. Mitunter sollen Komponisten von Liedern Blindtexte beim Komponieren von Melodien benutzen und diese vor dem Dichten des Liedtextes singen. Bereits seit dem 16. Jahrhundert dürften Blindtexte bei Setzern üblich gewesen sein.
+      </p>
+      <p>
+Als bekanntester Blindtext gilt der Text "Lorem ipsum", der seinen Ursprung im 16. Jahrhundert haben soll. Lorem ipsum ist in einer pseudo-lateinischen Sprache verfasst, die ungefähr dem "natürlichen" Latein entspricht. In Ihm finden sich eine Reihe realer lateinischer Wörter. Auch dieser Blindtext ist unverständlich gehalten, imitiert jedoch den Rhythmus der meisten europäischen Sprachen in lateinischer Schrift. Der Vorteil des lateinischen Ursprungs und der relativen Sinnlosigkeit von Lorem ipsum ist, dass der Text weder die Aufmerksamkeit des Betrachters auf sich zieht noch von der Gestaltung ablenkt.
+      </p>
+    </div>
+
+    <div class="side-one flex-1 order-1 p-10">
+      <h2>Sidebar One</h2>
+      <p>
+       Mittlerweile existiert ferner eine Fülle an lesbaren Blindtexten. Diese werden meist verwendet, wenn ihre Funktion die eines reinen Platzhaltertextes ist. Diese Alternativen zu den klassischen Lorem ipsum-Texten sind oftmals amüsant und erzählen kleine, lustige oder sinnlose Geschichten.
+      </p>
+    </div>
+
+    <div class="side-two flex-1 order-3 p-10">
+      <h2>Sidebar Two</h2>
+      <p>
+       Dass jedoch Füll- bzw. Platzhaltertexte beispielsweise von automatischen Such-Programmen nicht erkannt werden können, sinnlose Informationen somit nicht von sinnvollen zu unterscheiden sind, machen sich einige Internetanbieter zu Nutze: Gezielt erzeugter Blindtext, versehen mit einer spezifischen Kombination von Suchwörtern, kann zu einen erhöhten Zugriff von Suchmaschinen-Nutzern führen. Infolgedessen erhöhen sich die Werbeeinnahmen, die von der "Trefferzahl" der Web-Seite abhängen.
+      </p>
+    </div>
+  </div>
+
+  <div class="boxes mt-10">
+    <div class="box light-blue-bg p-20 mt-20">
+      <h4>Hi! I'm box one</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.
+        </p>
+      </div>
+
+      <div class="box light-orange-bg p-20 mt-20">
+        <h4>Hi! I'm box two</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          </p>
+        </div>
+
+        <div class="box light-green-bg p-20 mt-20">
+          <h4>Hi! I'm box three</h4>
+          <p>
+            Lorem vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+            </p>
+          </div>
+  </div>
+
+  <div class="banner light-brown-bg">
+    <div class="center-middle text-center">
+      <h4>Check me out!</h4>
+      <p>I'm right in the middle:)</p>
+      </div>
+    </div>
+
+  </div>
+  </body>
+  </html>
