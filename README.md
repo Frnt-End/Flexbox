@@ -5,7 +5,7 @@
 
 [Watch the page](
 https://frnt-end.github.io/Flexbox/)
--
+
 
 Details:
 * Aligning Items using a Flexbox.
